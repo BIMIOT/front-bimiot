@@ -204,7 +204,7 @@ export default {
       this.viewer = viewer;
       viewer.axes.setAxes();
       viewer.grid.setGrid();
-      viewer.IFC.setWasmPath('../IFCjs/');
+      viewer.IFC.setWasmPath('../../IFCjs/');
      // const ifcapi = new IfcAPI();
      /*viewer.IFC.loader.ifcManager.parser.setupOptionalCategories({
         [IFCSPACE]: true
